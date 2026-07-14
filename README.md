@@ -1,8 +1,8 @@
-# SIMC — Proteins Problem (2024 Endeavour Challenge)
+# Singapore International Mathematical and Computational Challenge 2024 — Endeavour Challenge
 
-My solution to the **SIMC 2024 Endeavour Challenge**, a multi-task computational
-problem worked through as part of my preparation for the Singapore International
-Mathematical and Computational Challenge (SIMC).
+My solution to the **Endeavour Challenge** of the Singapore International Mathematical
+and Computational Challenge (SIMC) 2024 — a multi-task computational problem — worked
+as part of my preparation for SIMC 2026.
 
 ## The problem
 
@@ -10,7 +10,8 @@ The challenge ships a bundle of NumPy arrays (`Data/endeavour.npz`, keyed `task1
 onward), each feeding a sub-task in the official statement
 (`SIMC_2024_Endeavour_Challenge.pdf`). Several tasks involve reshaping flattened
 vectors into small images (for example 33x33) and reasoning about rotations,
-symmetry, and pattern structure.
+symmetry, and pattern structure, including reconstructing patterns from partial
+orientation classes.
 
 ## Approach
 
@@ -34,14 +35,17 @@ Solution_SIMC_2024.pdf              solution write-up
 The scripts load `endeavour.npz` by filename, so run them from inside `Data/`
 (or adjust the path) to reproduce the results.
 
-## Related repositories
+## Related
 
-Part of my SIMC preparation:
+Part of my preparation for the Singapore International Mathematical and Computational
+Challenge (SIMC) 2026:
 
-- [SIMC — RWA Problem](https://github.com/maksimkaprosuperhacker/SIMC-RWA-Problem) — risk-weighted asset optimisation
-- [SIMC — Lizards Problem](https://github.com/maksimkaprosuperhacker/SIMC-Lizards-Problem) — species differentiation by parameter search
-- [SIMC — Proteins Problem](https://github.com/maksimkaprosuperhacker/SIMC-Proteins-Problem) — SIMC 2024 Endeavour image and pattern tasks (this repository)
-- [Preparation for SIMC 2026](https://github.com/maksimkaprosuperhacker/Preparation-for-SIMC-2026) — all three problems collected together
+- [Risk-Weighted Assets Optimization](https://github.com/maksimkaprosuperhacker/Risk-Weighted-Assets-Optimization)
+- [Species Differentiation of Lizards](https://github.com/maksimkaprosuperhacker/Species-Differentiation-of-Lizards)
+- [SIMC 2024 Endeavour Challenge](https://github.com/maksimkaprosuperhacker/Singapore-International-Mathematical-and-Computational-Challenge-2024-Endeavor-Challenge) — this repository
+- [IMMC 2026 Wildfire Modeling](https://github.com/maksimkaprosuperhacker/IMMC-2026)
+
+Index: [Preparation for SIMC 2026](https://github.com/maksimkaprosuperhacker/Preparation-for-SIMC-2026)
 
 ## Author
 
